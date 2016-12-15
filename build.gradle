@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+group = 'com.lb'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.2.1'
+}
